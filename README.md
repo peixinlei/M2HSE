@@ -1,4 +1,4 @@
-# Complementarity is the king: A multi-modal and multi-grained hierarchical semantic enhancement network for cross-modal retrieval (M<sup>2</sup>HSE)
+# Complementarity is the King: A Multi-modal and Multi-grained Hierarchical Semantic Enhancement Network for Cross-modal Retrieval (M<sup>2</sup>HSE)
 
 PyTorch code for M<sup>2</sup>HSE. *The local-level subenetwork* of our M<sup>2</sup>HSE is built on top of the [VSESC](https://github.com/HuiChen24/MM_SemanticConsistency).
 
@@ -35,7 +35,7 @@ Besides, 1) for extracting the fine-grained visual features, the raw images are 
 
 ## Training models
 
-+ <mark>For training *the global-level subnetwork*</mark>:
++ ==For training *the global-level subnetwork*==:
    
   Run `train_global.py`:
 
