@@ -1,6 +1,6 @@
 # Complementarity is the king: A multi-modal and multi-grained hierarchical semantic enhancement network for cross-modal retrieval $(M^2HSE)$
 
-PyTorch code for $M^2HSE$. The local-level subenetwork of our $M^2HSE$ is built on top of the [VSESC](https://github.com/HuiChen24/MM_SemanticConsistency).
+PyTorch code for M^2^HSE. The local-level subenetwork of our $M^2HSE$ is built on top of the [VSESC](https://github.com/HuiChen24/MM_SemanticConsistency).
 
 Xinlei Pei, Zheng Liu, Shaojing Yuan, Shanshan Gao, Huijian Han and Caiming Zhang. "Complementarity is the king: A multi-modal and multi-grained hierarchical semantic enhancement network for cross-modal retrieval"
 
