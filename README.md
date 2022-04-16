@@ -35,45 +35,45 @@ Besides, 1) for extracting the fine-grained visual features, the raw images are 
 
 ## Training models
 
-For training *the global-level subnetwork*:
++ <mark>For training *the global-level subnetwork*</mark>:
+   
+  Run `train_global.py`:
 
-Run `train_global.py`:
+    ```bash
+    python train_global.py 
+        --data_path ./data/coarse-grained-data
+        --data_name corel5k_precomp 
+        --vocan_path ./vocab 
+        --logger_name ./checkpoint/M2HSE/Global/Corel5K 
+        --model_name ./checkpoint/M2HSE/Global/Corel5K 
+        --num_epochs 100 
+        --lr_updata 50 
+        --batchsize 100  
+        --gamma_1 1 
+        --gamma_2 .5 
+        --alpha_1 .8 
+        --alpha_2 .8
+    ```
 
-```bash
-python train_global.py 
---data_path ./data/coarse-grained-data
---data_name corel5k_precomp 
---vocan_path ./vocab 
---logger_name ./checkpoint/M2HSE/Global/Corel5K 
---model_name ./checkpoint/M2HSE/Global/Corel5K 
---num_epochs 100 
---lr_updata 50 
---batchsize 100  
---gamma_1 1 
---gamma_2 .5 
---alpha_1 .4 
---alpha_2 .4
-```
++ <mark>For training *the local-level subnetwork*</mark>:
+   
+  Run `train_local.py`:
 
-For training *the local-level subnetwork*:
-
-Run `train_local.py`:
-
-```bash
-python train_local.py 
---data_path ./data/fine-grained-data 
---data_name corel5k_precomp 
---vocan_path ./vocab 
---logger_name ./checkpoint/M2HSE/Local/Corel5K 
---model_name ./checkpoint/M2HSE/Local/Corel5K 
---num_epochs 100 
---lr_updata 50 
---batchsize 100  
---gamma_1 1 
---gamma_2 .5 
---beta_1 .4 
---beta_2 .4
-```
+    ```bash
+    python train_local.py 
+        --data_path ./data/fine-grained-data
+        --data_name corel5k_precomp 
+        --vocan_path ./vocab 
+        --logger_name ./checkpoint/M2HSE/Local/Corel5K 
+        --model_name ./checkpoint/M2HSE/Local/Corel5K 
+        --num_epochs 100 
+        --lr_updata 50 
+        --batchsize 100  
+        --gamma_1 1 
+        --gamma_2 .5 
+        --beta_1 .4 
+        --beta_2 .4
+    ```
 
 ## Reference
 
