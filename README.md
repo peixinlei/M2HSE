@@ -35,7 +35,7 @@ Besides, 1) for extracting the fine-grained visual features, the raw images are 
 
 ## Training models
 
-+ 'For training *the global-level subnetwork*':
++ ''For training *the global-level subnetwork*'':
    
   Run `train_global.py`:
 
