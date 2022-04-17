@@ -43,7 +43,7 @@ Besides, 1) for extracting the fine-grained visual features, the raw images are 
     python train_global.py 
         --data_path ./data/coarse-grained-data
         --data_name corel5k_precomp 
-        --vocan_path ./vocab 
+        --vocab_path ./vocab 
         --logger_name ./checkpoint/M2HSE/Global/Corel5K 
         --model_name ./checkpoint/M2HSE/Global/Corel5K 
         --num_epochs 100 
@@ -63,7 +63,7 @@ Besides, 1) for extracting the fine-grained visual features, the raw images are 
     python train_local.py 
         --data_path ./data/fine-grained-data
         --data_name corel5k_precomp 
-        --vocan_path ./vocab 
+        --vocab_path ./vocab 
         --logger_name ./checkpoint/M2HSE/Local/Corel5K 
         --model_name ./checkpoint/M2HSE/Local/Corel5K 
         --num_epochs 100 
