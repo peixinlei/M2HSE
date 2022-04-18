@@ -2,7 +2,7 @@
 # ---------------------------------------------------------------
 # The Local-level subnetwork of our M2HSE approach
 #
-# Writen by Xin-lei Pei, 2021
+# Written by Xin-lei Pei, 2021
 # ---------------------------------------------------------------
 import os
 import time
