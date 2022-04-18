@@ -1,4 +1,3 @@
-"""Training script"""
 import evaluation as evaluation
 from vocab import deserialize_vocab
 from model import MMHSE_local
